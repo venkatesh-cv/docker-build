@@ -1,0 +1,1 @@
+docker run -it --network overlay --name mongo -v /home/venkatesh/work/learning/docker-book/docker-build/ubuntuWithMongoDb/mongodata:/usr/mongodata venkatesh/ubuntu-node-mongo /usr/bin/mongod --dbpath /usr/mongodata --bind_ip_all
