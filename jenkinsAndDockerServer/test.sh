@@ -1,0 +1,4 @@
+WORKSPACE=$PWD
+MNT="$PWD/.."
+ls $MNT
+
